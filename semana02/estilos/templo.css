@@ -23,12 +23,15 @@ picture{
     display: block;
 
     float: center;
+    width: 100%;
     height: auto;
 
 }
 
 img{
-    width: 605px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box; 
     height: auto;
     border: 5px solid white;
     overflow: visible;
