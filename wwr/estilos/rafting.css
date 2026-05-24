@@ -65,6 +65,7 @@ h1{
     position: absolute;
     border: 1px solid grey;
     background-color: var(--cor-secundaria);
+    opacity: 0.4;
 }
 
 .hero article img{
