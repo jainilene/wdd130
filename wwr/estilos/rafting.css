@@ -61,7 +61,7 @@ h1{
     color: var(--cor-destaque2);
 }
 
-article{
+.hero article{
     position: absolute;
     border: 1px solid grey;
     background-color: var(--cor-secundaria);
