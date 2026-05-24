@@ -58,12 +58,13 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque1);
-    color: #fff;
+    color: var(--cor-destaque2);
 }
 
 article{
     position: absolute;
     border: 1px solid grey;
+    background-color: var(--cor-secundaria);
 }
 
 .hero article img{
