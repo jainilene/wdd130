@@ -73,5 +73,5 @@ h1{
     width: 125px;
     border: 1px solid #fff;
     margin: 5px;
-    box-shadow: yellowgreen;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 }
