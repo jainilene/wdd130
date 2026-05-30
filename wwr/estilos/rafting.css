@@ -65,7 +65,9 @@ nav, p, section, article{
 }
 
 .hero{
-    /* position: relative; */
+    position: relative;
+    margin: 0 auto;
+    padding-top: 4rem;
 }
 
 .hero img{
@@ -75,8 +77,8 @@ nav, p, section, article{
 }
 
 h1{
-    /* position: absolute; */
-    top: 20px;
+    position: absolute;
+    top: 0px;
     width: 100%;
     padding: 16px;
     text-align: center;
