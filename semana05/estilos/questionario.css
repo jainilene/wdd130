@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+
+}
+
+form{
+    display: grid;
+    background-color: gray;
+    gap: 5px;
+    padding: 10px 20px
+
+}
+
+label{
+    margin-top: 5px;
+}
+
+input, textarea, select, button{
+    padding: 5px 10px;
+}
+
+button{
+    background-color: steelblue;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 10px;
+}
