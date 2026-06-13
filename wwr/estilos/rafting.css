@@ -9,7 +9,7 @@
 }
 
 *{
-    margin: 0;
+    margin: 0.2rem;
     padding: 0;
     box-sizing: border-box;
 }
@@ -20,6 +20,22 @@ body{
 
 }
 
+.main_fale_conosco img{
+    height: 100%;
+    width: auto;
+
+}
+
+.contatos{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contatos p{
+    margin: 0;
+    padding: 0;
+}
 header, main, footer{
     width: 840px;
     margin: 0 auto;
@@ -31,6 +47,11 @@ header{
     justify-content: space-around;
     justify-items: center;
     align-items: center;
+    background-color: var(--cor-secundaria);
+}
+
+.top_nav{
+    
 }
 
 header img{
@@ -41,6 +62,9 @@ header img{
 
 header nav a{
     padding: 0.5rem;
+    border: 2px solid black;
+    color: black;
+    background-color: gray;
 }
 
 header nav{
@@ -124,9 +148,109 @@ nav, p, section, article{
     text-align: center;
 }
 
+.main_fale_conosco{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_fale_conosco h2{
+    grid-column: 1/4;
+}
+
+.main_fale_conosco p{
+    margin: 0;
+}
+.main_fale_conosco img{
+    display: block;
+    margin: 0 auto;
+    width: 17rem;
+    text-align: center;
+}
+
+form{
+     display: grid;
+     justify-content: left;
+     align-items: start;
+     justify-content: left;
+     margin: 0;
+     padding: 0;
+     text-align: left;
+}
+
+form div{
+    text-align: left;
+    margin: 0.2rem 0.2rem;
+}
+
+.entradas{
+    display: flex;
+
+}
+.campo{
+  width: auto;
+  flex: 1;
+}
+.proposito_mensagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 0.5rem 0.5rem 0.5rem;
+}
+
+.label_proposito{
+    grid-column: 1/2;
+    text-align: left;
+}
+
+.mensagem{
+    text-align: left;;
+}
+
+
+.opcoes_proposito{
+    display: grid;
+    grid-column: 2/4;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0.4rem;
+}
+
+button{
+    height: 2rem;
+    width: auto;
+}
+
+.funcionarios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+}
+
+.funcionarios h2{
+    grid-column: 1/6;
+}
+
+.funcionarios figure{
+    display: grid;
+    place-items: center;
+}
+
+.funcionarios figure img{
+    width: 8rem;
+    height: auto;
+    max-height: 10rem;
+    text-align: center;
+}
+
+
+
+
 .aventura{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
 }
@@ -166,12 +290,15 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-
+    background-color: var(--cor-secundaria);
+    margin: auto;
 }
 
 footer p{
     grid-column: 1/5;
     text-align: center;
+   
+    padding: 1rem;
 }
 
 footer nav{
@@ -180,9 +307,12 @@ footer nav{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
+    margin: 0.2rem;
+    padding: 0.2rem;
 }
 
 footer nav img{
     width: 3rem;
     text-align: center;
 }
+
