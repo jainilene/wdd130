@@ -23,7 +23,10 @@ body{
 .main_fale_conosco img{
     height: 100%;
     width: auto;
-
+    display: block;
+    margin: 0 auto;
+    width: 17rem;
+    text-align: center;
 }
 
 .contatos{
@@ -162,18 +165,12 @@ nav, p, section, article{
 .main_fale_conosco p{
     margin: 0;
 }
-.main_fale_conosco img{
-    display: block;
-    margin: 0 auto;
-    width: 17rem;
-    text-align: center;
-}
+
 
 form{
      display: grid;
      justify-content: left;
      align-items: start;
-     justify-content: left;
      margin: 0;
      padding: 0;
      text-align: left;
