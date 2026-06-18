@@ -67,6 +67,7 @@ header nav a{
     border: 2px solid black;
     color: black;
     background-color: gray;
+    text-align: center;
 }
 
 header nav{
@@ -326,6 +327,7 @@ footer nav img{
 
 .parte1 p{
     position: absolute;
+    margin-left: 0;
     top: 0rem;
     width: 100%;
     text-align: center;
@@ -339,9 +341,12 @@ footer nav img{
 
 .parte2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: stretch;
+    place-items: center;
+    align-items: center;
+    margin-bottom: 0.3rem;
 }
 
 .parte2 img{
@@ -354,7 +359,6 @@ footer nav img{
     color: brown;
     opacity: 0.7;
 }
-
 
 .passeios_descricao{
     display: grid;
